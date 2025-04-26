@@ -50,10 +50,5 @@ KAIMELEON works similar to how health apps collect diverse data points (heart ra
 
 *Coming soon: Documentation, API references, and integration guides*
 
-## 📫 Contact
-
-For inquiries about KAIMELEON and how it can transform your business operations, reach out to us at [contact@kaimeleon.com](mailto:contact@kaimeleon.com)
-
----
 
 <p align="center">© 2025 KAIMELEON | Transforming Business Intelligence with AI</p>
