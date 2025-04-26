@@ -38,9 +38,9 @@ KAIMELEON leverages modern technologies to deliver powerful, scalable solutions:
 
 ## 📚 Resources
 
-- [Website](https://kaimeleon.com)
+- [Website](https://kaimeleon.ai)
 - [Documentation](https://docs.kaimeleon.com)
-- [Blog](https://kaimeleon.com/blog)
+- [Blog](https://kaimeleon.ai/blog)
 
 ## 📞 Contact
 
