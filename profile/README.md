@@ -1,53 +1,61 @@
-# KAIMELEON: Integrated Business Intelligence & Automation
+# KAIMELEON Repository Structure
 
+## 📂 Our Repositories
 
-## 🤖 About KAIMELEON
+### Backend Services (NestJS)
 
-KAIMELEON is an integrated AI platform that transforms how businesses manage communication, automate tasks, and gain actionable insights. By connecting multiple data sources and applying advanced AI, we help organizations discover hidden patterns and opportunities that would otherwise remain invisible.
+- **[kaimeleon-backend](https://github.com/Ka1meleon/kaimeleon-backend)** (TypeScript)
+  - Main NestJS backend service accessible at `api.kaimeleon.com`
+  - Provides core API endpoints and business logic for the platform
+  - Documentation available at `api.kaimeleon.com/documentation`
+  - Handles authentication, data processing, and platform-wide services
 
-> *Just as a chameleon adapts to its environment, KAIMELEON adapts to your business needs, providing intelligent solutions that evolve with your organization.*
+- **[kai-agent](https://github.com/Ka1meleon/kai-agent)** (TypeScript)
+  - NestJS application containing all logic for MCP integrations
+  - Manages connections with 3rd party tooling and our own services
+  - Handles AI agent functionality, natural language processing, and automated workflows
+  - Responsible for intelligent task routing and context-aware processing
 
-## 🧩 Platform Components
+- **[kai-clients](https://github.com/Ka1meleon/kai-clients)** (TypeScript)
+  - NestJS service for custom client integrations
+  - Accessible at `clients.kaimeleon.com/documentation`
+  - Provides client-specific API endpoints and customization options
+  - Manages client data models and integration points
 
-### 📧 Smart Email Management
-- **Natural Language Routing**: Define email routing with simple instructions like "Send all French emails to Person X"
-- **Context-Aware Understanding**: AI-powered content analysis instead of rigid filters
-- **Automated Responses**: Generate and send contextually appropriate replies
-- **Centralized Management**: All communications in one accessible location
+### Frontend Applications
 
-### 🎙️ KAI-Meeting Tool
-- **Intelligent Transcription**: Capture and analyze meeting content automatically
-- **Insight Extraction**: Identify key information, action items, and customer needs
-- **Seamless Integration**: First touchpoint for data entry into the KAIMELEON ecosystem
+- **[kai-hub](https://github.com/Ka1meleon/kai-hub)** (TypeScript)
+  - Centralized SaaS dashboard application
+  - User interface for managing and monitoring AI integrations
+  - Provides analytics, configuration controls, and system status
+  - Central access point for users to interact with the KAIMELEON ecosystem
 
-### ✅ Task Automation
-- **Conversation-to-Task**: Automatically generate to-dos from discussions
-- **Intelligent Assignment**: Route tasks to the right team members
-- **Workflow Integration**: Connect tasks to broader business processes
+- **[kai-meeting](https://github.com/Ka1meleon/kai-meeting)** (TypeScript)
+  - Ionic-based Progressive Web Application (PWA)
+  - Specialized tool for recording and processing meetings
+  - Captures audio, generates transcriptions, and extracts insights
+  - Integrates with the broader KAIMELEON platform for data utilization
 
-### 📊 Data Integration & Analysis
-- **Multi-Source Collection**: Gather insights from emails, meetings, web, and CRM
-- **Vector Database Storage**: Enable sophisticated semantic search and connections
-- **Pattern Recognition**: Identify relationships between data points that humans might miss
-- **Proactive Opportunity Identification**: Connect historical interests with new offerings
+- **[brand-website](https://github.com/Ka1meleon/brand-website)** (TypeScript)
+  - Public-facing marketing website
+  - Showcases KAIMELEON's capabilities and service offerings
+  - Entry point for new users and clients
 
-### 🔍 Market Intelligence
-- **Competitive Monitoring**: Track industry developments and competitor activities
-- **Automated Research**: Daily updates via scheduled data collection
-- **Strategic Insights**: Transform raw data into actionable business intelligence
+## 🔄 System Architecture
 
-### 💼 CRM Enhancement
-- **Central Data Repository**: Maintain comprehensive customer information
-- **Automated Profile Enrichment**: Continuously update records with new insights
-- **360° Customer View**: Understand the complete customer journey
+Our platform consists of three NestJS backend services handling different aspects of the system:
+- Core API functionality (`kaimeleon-backend`)
+- AI and integration services (`kai-agent`)
+- Client-specific customizations (`kai-clients`)
 
-## 🧠 The KAIMELEON Advantage
+These backend services support our frontend applications, including our main dashboard (`kai-hub`) and specialized tools like our meeting recorder (`kai-meeting`).
 
-KAIMELEON works similar to how health apps collect diverse data points (heart rate, sleep, sunlight exposure, social interactions, nutrition) to reveal unexpected connections. The more data collected, the better the AI can identify patterns that humans would overlook, leading to more informed decision-making and personalized recommendations.
+## 📚 Documentation
 
-## 🚀 Getting Started
+- API Documentation: `api.kaimeleon.com/documentation`
+- Client Integration Documentation: `clients.kaimeleon.com/documentation`
+- GitHub Organization: [Ka1meleon](https://github.com/Ka1meleon)
 
-*Coming soon: Documentation, API references, and integration guides*
+---
 
-
-<p align="center">© 2025 KAIMELEON | Transforming Business Intelligence with AI</p>
+<p align="center">© 2025 KAIMELEON</p>
