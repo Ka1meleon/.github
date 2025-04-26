@@ -1,60 +1,51 @@
-# KAIMELEON Repository Structure
+# KAIMELEON
 
-## 📂 Our Repositories
+## 🚀 Transforming Business Communication with AI
 
-### Backend Services (NestJS)
+KAIMELEON is a cutting-edge platform that integrates artificial intelligence into business communication workflows. Our solutions help organizations capture, analyze, and leverage insights from meetings and communications to drive better decision-making and productivity.
 
-- **[kaimeleon-backend](https://github.com/Ka1meleon/kaimeleon-backend)** (TypeScript)
-  - Main NestJS backend service accessible at `api.kaimeleon.com`
-  - Provides core API endpoints and business logic for the platform
-  - Documentation available at `api.kaimeleon.com/documentation`
-  - Handles authentication, data processing, and platform-wide services
+## 🌟 Our Solutions
 
-- **[kai-agent](https://github.com/Ka1meleon/kai-agent)** (TypeScript)
-  - NestJS application containing all logic for MCP integrations
-  - Manages connections with 3rd party tooling and our own services
-  - Handles AI agent functionality, natural language processing, and automated workflows
-  - Responsible for intelligent task routing and context-aware processing
+### AI-Powered Meeting Assistant
 
-- **[kai-clients](https://github.com/Ka1meleon/kai-clients)** (TypeScript)
-  - NestJS service for custom client integrations
-  - Accessible at `clients.kaimeleon.com/documentation`
-  - Provides client-specific API endpoints and customization options
-  - Manages client data models and integration points
+Our flagship solution captures and processes meeting content, providing:
+- Automated transcription and summarization
+- Action item extraction and assignment
+- Integration with your existing tools and workflows
+- Searchable knowledge base of past discussions
 
-### Frontend Applications
+### Intelligent Communication Platform
 
-- **[kai-hub](https://github.com/Ka1meleon/kai-hub)** (TypeScript)
-  - Centralized SaaS dashboard application
-  - User interface for managing and monitoring AI integrations
-  - Provides analytics, configuration controls, and system status
-  - Central access point for users to interact with the KAIMELEON ecosystem
+A comprehensive suite of tools for enhancing business communication:
+- Centralized dashboard for managing communication insights
+- Custom integrations with your existing business systems
+- Analytics and reporting on communication patterns and trends
 
-- **[kai-meeting](https://github.com/Ka1meleon/kai-meeting)** (TypeScript)
-  - Ionic-based Progressive Web Application (PWA)
-  - Specialized tool for recording and processing meetings
-  - Captures audio, generates transcriptions, and extracts insights
-  - Integrates with the broader KAIMELEON platform for data utilization
+## 💡 Technology
 
-- **[brand-website](https://github.com/Ka1meleon/brand-website)** (TypeScript)
-  - Public-facing marketing website
-  - Showcases KAIMELEON's capabilities and service offerings
-  - Entry point for new users and clients
+KAIMELEON leverages modern technologies to deliver powerful, scalable solutions:
 
-## 🔄 System Architecture
+- **Backend:** Robust API services built with NestJS and TypeScript
+- **Frontend:** Responsive web applications using modern frameworks
+- **AI:** Advanced natural language processing and machine learning
+- **Mobile:** Progressive Web Apps for on-the-go access
 
-Our platform consists of three NestJS backend services handling different aspects of the system:
-- Core API functionality (`kaimeleon-backend`)
-- AI and integration services (`kai-agent`)
-- Client-specific customizations (`kai-clients`)
+## 📱 Products
 
-These backend services support our frontend applications, including our main dashboard (`kai-hub`) and specialized tools like our meeting recorder (`kai-meeting`).
+- **KAIMELEON Hub** - Our central dashboard for managing AI integrations
+- **KAIMELEON Meeting** - Intelligent meeting recording and analysis tool
+- **KAIMELEON API** - Integration points for your existing systems
 
-## 📚 Documentation
+## 📚 Resources
 
-- API Documentation: `api.kaimeleon.com/documentation`
-- Client Integration Documentation: `clients.kaimeleon.com/documentation`
-- GitHub Organization: [Ka1meleon](https://github.com/Ka1meleon)
+- [Website](https://kaimeleon.com)
+- [Documentation](https://docs.kaimeleon.com)
+- [Blog](https://kaimeleon.com/blog)
+
+## 📞 Contact
+
+- Email: info@kaimeleon.com
+- Support: support@kaimeleon.com
 
 ---
 
